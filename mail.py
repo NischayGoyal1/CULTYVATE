@@ -31,14 +31,17 @@ def send_email(email,Nischay):
    </head>
    <body>
       <div class="main">
-      <h2 class="main-head">AGROMATE</h2>
+      <h2 class="main-head">AGROLENDERS</h2>
       <div class="content">
          <h2>Hi there, {Nischay}!</h2>
-         <p>Someone (hopefully you) has signed up with this email at Agromate. If it was you thank you for registring with us. Please click the button below to verify your ownership of this email for the account.</p>
-         <p>Agromate - a simple and easy platform to connect farmers and landlords with each other.</p>
-         <button><a href="/">Verify Now</a></button>
-         <p>You have to confirm your account before this link expires.</p>
-         <P>Agromate- farming made easy.</P>
+         <p>Cultyvate<br>
+
+Hey there vedant
+Thank you for registering with us. Now you can start using our services like crop prediction, crop disease detection and fertilizer recommendation in order to increase your yield and maximize your profit.
+<br>
+Thank you team cultyvate</p>
+         <br>
+         <P>Cultyvate- farming made easy.</P>
       </div>
    </div>
    </body>
