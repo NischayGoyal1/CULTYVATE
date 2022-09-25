@@ -1,6 +1,4 @@
 from flask import Flask, redirect,render_template, request,redirect,session
-from mail import *
-from msg import *
 from weath import *
 
 app=Flask(__name__)
@@ -17,8 +15,6 @@ def fetch():
     mal=request.form["E-mail"]
     lo=request.form["loc"]
     dic=nisch(lo)
-    send_email(mal,name)
-    sendsms(phn,name,dic)
     return redirect("/")
     
 
